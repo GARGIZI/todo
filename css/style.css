@@ -1,0 +1,88 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box {
+  width: 350px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}
+
+.box-inner {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.box-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000;
+}
+
+.box-search {
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box-search input {
+  width: 250px;
+  height: 35px;
+  padding-left: 10px;
+  border: 1px solid #000;
+}
+
+.box-search button {
+  width: 40px;
+}
+
+.box-taskList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.box-taskList__task {
+  width: 100%;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.box-taskList__task:not(:last-child) {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */
